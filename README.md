@@ -1,17 +1,21 @@
 🔁 Recursion Algorithms – Implementation & Complexity Study
-
+-----------------------------------------------------------------------------------------------------------------------------
 
 
 📌 Project Introduction
 Recursion works by breaking a problem into smaller subproblems of the same type until a base condition is reached. Each recursive call adds a new frame to the call stack, making it important to analyze both time and memory usage.
 
-The objective of this project is to:
+-----------------------------------------------------------------------------------------------------------------------------
+🎯 objective 
+
 Explore different recursion patterns
 Compare naive and optimized recursive approaches
 Analyze time complexity using recurrence relations
 Study recursion depth and stack behavior
 Understand efficiency differences across algorithms
 
+
+-----------------------------------------------------------------------------------------------------------------------------
 🧮 1️⃣ Factorial Using Recursion
 Factorial represents a linear recursive problem where each call reduces the problem size by exactly one.
 
@@ -29,7 +33,10 @@ O(n) — one multiplication per recursive level
 Space Complexity:
 O(n) — recursion depth equals n
 
+-----------------------------------------------------------------------------------------------------------------------------
+
 🔢 2️⃣ Fibonacci Sequence (Recursive Approaches)
+
 The Fibonacci sequence is defined as:
 F(n)=F(n−1)+F(n−2)
 
@@ -61,6 +68,7 @@ Complexity
 Time Complexity: O(n)
 Space Complexity: O(n)
 
+-----------------------------------------------------------------------------------------------------------------------------
 
 🗼 3️⃣ Tower of Hanoi
 
@@ -87,6 +95,8 @@ Space Complexity: O(n)
 
 A full movement trace was analyzed for N = 3 to understand recursive execution order.
 
+-----------------------------------------------------------------------------------------------------------------------------
+
 🔎 4️⃣ Recursive Binary Search
 
 Binary search is a divide-and-conquer algorithm that works on sorted arrays.
@@ -109,6 +119,7 @@ Complexity
 Time Complexity: O(log n)
 Space Complexity: O(log n)
 
+-----------------------------------------------------------------------------------------------------------------------------
 
 📊 Complexity Comparison Summary
 Algorithm	Time Complexity	Space Complexity	Type of Growth
@@ -118,6 +129,7 @@ Fibonacci (Memoized)	O(n)	O(n)	Linear
 Tower of Hanoi	O(2ⁿ)	O(n)	Exponential
 Binary Search	O(log n)	O(log n)	Logarithmic
 
+-----------------------------------------------------------------------------------------------------------------------------
 
 🏁 Final Conclusion
 
